@@ -67,8 +67,6 @@ export default function MakeList() {
           </button>
         </form>
       </div>
-
-      <h1>Lista</h1>
       <ul>
         {itens.map((it) => (
           <li key={it.id}>
